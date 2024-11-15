@@ -1,0 +1,10 @@
+<?php
+$array=[2,4,3,1,6,7,5,8,0,9];
+$sum=0;
+$num=count($array);
+$avg;
+for($i=0;$i<count($array);$i++){
+    $sum+=$array[$i];
+}
+$avg=$sum/$num;
+echo"$avg";
